@@ -1,0 +1,157 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+}
+
+.navbar {
+  background-color: rgba(38, 98, 126, 0.765);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  color: #f8f9fa;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  transition: background-color 0.3s;
+  border-radius: round;
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  margin-right: 1rem;
+  font-size: 1.1rem;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #ffffff;
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover::after {
+  width: 100%;
+  left: 0;
+  background: #cce4ff;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #cce4ff;
+}
+
+.navbar-nav .nav-link.active::after {
+  width: 100%;
+  left: 0;
+  background: #cce4ff;
+}
+
+
+.navbar-toggler-icon {
+  color: #7c78786c;
+}
+
+.sign-btn {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #ffffff;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.sign-btn:hover {
+  background-color: #ffffff;
+  color: #343a40;
+}
+.login-btn {
+  color: #fff;
+  background-color: rgb(0, 166, 255);
+  border-color: #ffffff;
+  font-weight: 600;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-btn:hover {
+  background-color: #ffffff;
+  color: rgb(0, 166, 255);
+}
+
+
+.image-section {
+    width: 80%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container1{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    padding: 30px;
+    /* background-color: #fff; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -800px;
+    /* box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #343a40;
+    text-transform: uppercase;
+    text-align: center;
+}
+.container .title h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+.container .title h1 span{
+    font-size: 32px;
+    font-weight: 800;
+    color: rgba(38, 98, 126, 0.765);
+}
+.qoute{
+  font-size: 20px;
+  font-weight: 800;
+  font-style: italic;
+  text-align: center;
+  color: #2e8b57; 
+}
